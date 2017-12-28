@@ -102,7 +102,7 @@ See [this short list for what to buy for an Edison/Explorer Board OpenAPS rig.](
 
 ### Parents in particular may want to review the optional settings
 
-* Parents should [read this blog post by Katie DiSimone for a parent's perspective about various pros/cons](http://seemycgm.com/2017/02/01/loop-vs-openaps/) for parents and kids evaluating DIY closed loop systems.
+* Parents should [read this blog post by Katie DiSimone for a parent's perspective about various pros/cons](http://seemycgm.com/2017/09/02/loop-vs-openaps-update/) for parents and kids evaluating DIY closed loop systems.
 * **Override the high target with the low** ([see this explanation](http://openaps.readthedocs.io/en/latest/docs/While You Wait For Gear/preferences-and-safety-settings.html#override-high-target-with-low) for enabling this feature)
  * This makes it easier for secondary caregivers (like school nurses) to do conservative boluses at lunch/snack time, and allow the closed loop to pick up from there. The secondary caregiver can use the bolus wizard, which will correct down to the high end of the target; and setting this value in preferences to “true” allows the closed loop to target the low end of the target. Based on anecdotal reports from those using it, this feature sounds like it’s prevented a lot of (unintentional, diabetes is hard) overreacting by secondary caregivers when the closed loop can more easily deal with BG fluctuations.
 * **Carb ratio adjustment ratio** ([see this explanation](http://openaps.readthedocs.io/en/latest/docs/While You Wait For Gear/preferences-and-safety-settings.html#carbratio-adjustmentratio) for enabling this feature)
